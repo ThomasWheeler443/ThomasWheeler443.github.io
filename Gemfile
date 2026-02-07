@@ -22,3 +22,6 @@ gem "wdm", "~> 0.1", :platforms => [:windows]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+# Add support to ruby >4.0.0
+gem "fiddle"
